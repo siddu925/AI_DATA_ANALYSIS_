@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Alice",
+        "age": 30,
+        "is_active": true,
+        "salary": 60000.5,
+        "city": "Bengaluru"
+    },
+    {
+        "name": "Bob",
+        "age": "25",
+        "is_active": "true",
+        "salary": 55000,
+        "city": "Mumbai"
+    },
+    {
+        "name": "Charlie",
+        "age": 40,
+        "salary": 70000.0,
+        "city": "Delhi"
+    }
+]

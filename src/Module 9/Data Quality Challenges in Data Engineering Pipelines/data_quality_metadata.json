@@ -1,0 +1,29 @@
+{
+    "description": "Metadata for validating customer data",
+    "columns": {
+        "customer_id": {
+            "data_type": "numeric",
+            "not_null": true
+        },
+        "name": {
+            "data_type": "string",
+            "not_null": true
+        },
+        "age": {
+            "data_type": "numeric",
+            "min": 18,
+            "max": 99
+        },
+        "city": {
+            "data_type": "string",
+            "allowed_values": [
+                "Bengaluru",
+                "Mumbai",
+                "Delhi"
+            ]
+        },
+        "is_active": {
+            "data_type": "boolean"
+        }
+    }
+}

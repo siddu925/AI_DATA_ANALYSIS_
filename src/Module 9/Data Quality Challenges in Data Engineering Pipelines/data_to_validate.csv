@@ -1,0 +1,7 @@
+customer_id,name,age,city,is_active
+1,Alice,30.0,Bengaluru,True
+2,Bob,15.0,London,False
+3,Charlie,45.0,Delhi,True
+4,David,22.0,Mumbai,False
+5,Eve,100.0,Bengaluru,1
+6,Frank,,Pune,0
